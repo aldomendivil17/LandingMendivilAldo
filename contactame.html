@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!-- 
+    contactame.html
+    Aldo Mendivil Ochoa
+    00000229010
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/estilos.css">
+    <title>Contáctame</title>
+</head>
+<body>
+    <header>
+        <img id="logo1" src="assets/img/logo.jpg" alt="logo">
+        <h1 id="h1_main">Contáctame</h1>
+    </header>
+    <hr />
+    <nav>
+        <br>
+        <a href="index.html">| Index |</a>
+        <a href="horario.html">Horario |</a>
+        <a href="descripción.html">Descripción |</a>
+        <a href="aficiones.html">Aficiones |</a>
+        <a href="contactame.html">Contáctame |</a>
+        <br><br>
+        <hr>
+    </nav>
+    <main>
+        <br>
+            <h3 id="PersonalData">Llena el formulario y contáctame...</h3>
+            <br>
+            <form action ="mailto: aldo.mendivil229010@potros.itson.edu.mx?subject=contacto"
+                  method=post enctype="text/plain">
+
+                <label><h3 id="PersonalData">Nombre: </h3></label>
+                <input type="text" id="txtNombre" name="nombre" size=30 maxlength=40 placeholder="Teclea tu nombre" required/>
+                <br><br>
+                <label><h3 id="PersonalData">Dirección: </h3></label>
+                <input type="text" id="txtDireccion" name="direccion" size=30 maxlength="100" placeholder="Teclea tu dirección" />
+                <br><br>
+                <label><h3 id="PersonalData">Correo electrónico:</h3></label>
+                <input type="email" id="txtEmail" name="email" size=30 maxlength=100 required placeholder="Teclea tu  correo electrónico"/>
+                <br><br><br>
+
+                <fieldset>
+                    <legend><h3 id="PersonalData">Ocupación: </h3></legend>
+                    <input type="hidden" name="ocupacion" value="ocupacion"/>
+                    <select name="seleccionar">
+                        <option selected="selected">Estudiante</option> 
+                        <option>Empleado</option>    
+                        <option>Desempleado</option>  
+                    </select>
+                </fieldset>
+                <br><br>
+
+                <fieldset>
+                    <legend><h3 id="PersonalData">Sexo: </h3></legend>
+                    <input type="radio" id="hombre" name="sexo" value="Hombre" />
+                    <label for="hombre" >Hombre</label>
+                    <br />
+                    <input type="radio" id="mujer" name="sexo" value="Mujer" />
+                    <label for="mujer" >Mujer</label>
+                    <br />
+                    <input type="radio" id="otro" name="sexo" value ="Otro" />
+                    <label for="otro" >Otro</label>
+                </fieldset>
+                
+                <br><br>
+                <label for="txtAficiones"><h3 id="PersonalData">Aficiones: </h3></label>
+                <input type="text" id="txtAficiones" name="aficiones" size=30 maxlength=100 placeholder="Teclea tus aficiones. Utiliza ','"/>
+                <br><br>
+                <label><h3 id="PersonalData">Estado de origen: </h3></label>
+                <input type="text" id="txtEstado" name="estado" size=30 maxlength="100" placeholder="Teclea tu estado"/>
+                <br><br>
+                <label for="txtEdad"><h3 id="PersonalData">Edad: </h3></label>
+                <input type="number" id="txtEdad" name="edad" min=18 max=100 value="18"/><br>
+
+                <br>
+                <label for="fechaNacimiento"><h3 id="PersonalData">Fecha de nacimiento: </h3></label>
+                <input type="date" id="fechaNacimiento" name="cumpleanhos" />
+                <br><br><br>
+                
+
+                <div>
+                    <input type="submit" name="boton" value="Enviar" />        
+                    <input type="reset" value="Borrar" />
+                </div>
+            </form>
+    </main>
+    <footer>
+        <hr><br>
+        <h2 id="class-foot">Sitio realizado por: Aldo Mendivil Ochoa | ITSON</h2>
+    </footer>
+</body>
+</html>

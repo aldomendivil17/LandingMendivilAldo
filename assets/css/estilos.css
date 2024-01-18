@@ -1,0 +1,78 @@
+*{
+    background-color: rgb(209, 209, 209);
+}
+
+#logo1{
+    width: 115px;
+    height: 150px;
+    padding-left: 20px;
+}
+
+#h1_main{
+    font-family: Verdana;
+    font-size: 50px;
+    color: #125B6F;
+}
+
+nav a{
+    font-family: Verdana;
+    font-size: 25px;
+    color:#125B6F;
+}
+
+
+h3#PersonalData{
+    font-family: verdana;
+    font-size: 25px;
+    color:#125B6F;
+}
+
+h3#dataBold{
+    font-family: verdana;
+    font-size: 20px;
+    color:#125B6F;
+}
+
+footer{
+    text-align: center;
+    font-family: verdana;
+    font-size: 12px;
+    color: #194F5E;
+}
+
+/*
+---------------------------------------------------
+Empieza Horario page
+*/
+
+table{
+    border: 3px solid #194F5E;
+    align-items: center;
+}
+th, td {
+    color: #1f282b;
+    padding: 5px;
+    border: 1px solid #194F5E;
+}
+
+th#hora{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+th#dias{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*
+---------------------------------------------------
+Empieza Descripción page
+*/
+
+/*
+---------------------------------------------------
+Empieza Aficiones page
+*/
+
+
+
